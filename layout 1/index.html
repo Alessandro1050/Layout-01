@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="imgs/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprendendo a codar layout01</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+  </head>
+  <body>
+      <!--logo principal-->
+    <div class="logo">
+      <img class="logo" src="logo.jpg" alt="Logo da empresa" />
+    </div>
+    <!--fim da logo principal-->
+
+    <!--Menu de navegação-->
+        <nav class="menu-navegação">
+            <ul>
+                <li>
+                    <a href="home">HOME</a>
+                </li>
+                <li>
+                    <a href="escritorio">O ESCRITÓRIO</a>
+                </li>
+                <li>
+                    <a href="area">ÁREA DE ATUAÇÃO</a>
+                </li>
+                <li>
+                    <a href="equipe">EQUIPE</a>
+                </li>
+                <li>
+                    <a href="contato">CONTATO</a>
+               </li>
+            </ul>
+       </nav>
+    <!--fim de menu de navegação-->
+
+    <!--quebra de display-->
+    <hr />
+    <!--fim da quebra de diplay-->
+
+    <!--img slide-->
+    <div class="container">
+      <img
+        class="slide-container"
+        src="escritório.jpg"
+        alt="imagem da empresa"
+      />
+    </div>
+    <!--fim do slide-->
+    <!--quebra de dsplay-->
+    <hr />
+    <!--fim de quebra de display-->
+    <!--início galeria -->
+    <div class="mural-container">
+      <img src="empresa.jpg" title="EMPRESA" alt="Sobre a Empresa" />
+      <img src="area.jpg" title="ÁREA DE ATUAÇÃO" alt="Área de Atuação" />
+      <img src="equipe.jpg" title="SOBRE A EQUIPE" alt="Sobre a equipe" />
+    </div>
+    <!--Término galeria-->
+
+    <!--Informações sobre a empresa-->
+    <div class="somos-container">
+      <div id="somos-img">
+        <img src="home.jpg" alt="Sobre quem somos" />
+      </div>
+      <div class="somos">
+        There are many variations of passages of Lorem Ipsum available, but the
+        majority have suffered alteration in some form, by injected humour, or
+        randomised words which don't look even slightly believable. If you are
+        going to use a passage of Lorem Ipsum, you need to be sure there isn't
+        anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+        generators on the Internet tend to repeat predefined chunks as
+        necessary, making this the first true generator on the Internet. It uses
+        a dictionary of over 200 Latin words, combined with a handful of model
+        sentence structures, to generate Lorem Ipsum which looks reasonable. The
+        generated Lorem Ipsum is therefore always free from repetition, injected
+        humour, or non-characteristic words etc. 5 paragraphs words bytes lists
+        Start with 'Lorem ipsum dolor sit amet...'
+      </div>
+    </div>
+    <!--Fim das informaçõe-->
+    <!--Quebra de display -->
+    <hr />
+    <!--Fim da quebra de display-->
+
+    <div class="formulário-mapa">
+        <form class="formulário">
+            <p class="tex1"><strong>Entre em contato para qualquer dúvida.</strong></p>
+            <fieldset>
+                <div class="from">
+                    <label name="nome" for="nome">Nome*
+                        <input type="text" id="nome" placeholder="Nome Completo">
+                    </label>
+                    <label name="nome" for="celular">Telefone Celular*
+                        <input type="number" name="nome" id="" placeholder="(xx) x-xxxx-xxxx">
+                    </label>
+                    <label name="nome" for="fixo">Telefone Fixo*
+                        <input type="number" name="nome" id="" placeholder="(xx) x-xxxx-xxxx">
+                    </label>
+                    <label name="nome" for="email">E-mail*
+                        <input type="text" id="email" placeholder="okgoogle@gmail.com">
+                    </label>
+                    <label name="nome" for="assunto">Assunto*
+                        <input type="text" id="assunt" placeholder="Assunto">
+                    </label>
+                    <label name="nome" for="mensagem">Mensagem*
+                        <textarea name="none" id="mensagem" cols="50" rows="10">Mensagem</textarea>
+                    </label>
+                    <button class="enviar">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+        <div class="loacalização">
+            <strong>Localização</strong>
+            <map class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.672131450763!2d-34.90190068273807!3d-8.134822240924638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1fc963ea3595%3A0xce49fbebe222eb0f!2sPracinha%20de%20Boa%20Viagem!5e0!3m2!1spt-BR!2sbr!4v1675641584173!5m2!1spt-BR!2sbr" width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </map>
+            <div class="links">
+                <ul>
+                    <li><img src="end.png" alt="local"  width="50px" height="50px"><a href=""></a></li>
+                    <li><img src="zap-zap.png" alt="" width="50px" height="50px"><a href=""></a></li>
+                    <li><img src="cel.png" alt="" width="50px" height="50px"><a href=""></a></li>
+                    <li><img src="email.jpg" alt="" width="50px" height="50px"><a href=""></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
